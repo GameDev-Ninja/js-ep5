@@ -30,6 +30,15 @@ function UpdateGame(deltaTime) {
     if (isKeyDown('ArrowLeft')) {
         logo.x = logo.x - 1
     }
+    if (isKeyDown('ArrowRight')) {
+        logo.x = logo.x + 1
+    }
+    if (isKeyDown('ArrowUp')) {
+        logo.y = logo.y - 1
+    }
+    if (isKeyDown('ArrowDown')) {
+        logo.y = logo.y + 1
+    }
 }
 
 /**
