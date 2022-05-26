@@ -47,4 +47,7 @@ function UpdateGame(deltaTime) {
 function DrawGame(context) {
     // Affichage du logo Game-Dev.Ninja
     context.drawImage(logo.image, 0, 0, logo.image.naturalWidth, logo.image.naturalHeight, logo.x, logo.y, logo.image.naturalWidth, logo.image.naturalHeight)
+
+    context.fillText('X: '+ logo.x, 5, 30)
+    context.fillText('Y: '+ logo.y, 5, 50)
 }
