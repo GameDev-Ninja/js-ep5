@@ -27,7 +27,9 @@ function LoadGame(canvas, context) {
  * Exécutée perpétuellement pour mettre à jour les données
  */
 function UpdateGame(deltaTime) {
-
+    if (isKeyDown('ArrowLeft')) {
+        logo.x = logo.x - 1
+    }
 }
 
 /**
